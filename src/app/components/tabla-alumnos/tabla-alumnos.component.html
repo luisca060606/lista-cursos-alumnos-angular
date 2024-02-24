@@ -1,0 +1,17 @@
+<h1>Alumnos</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Average</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let alumno of alumnos">
+      <td>{{ alumno.name }}</td>
+      <td>{{ alumno.last }}</td>
+      <td>{{ alumno.average }}</td>
+    </tr>
+  </tbody>
+</table>
